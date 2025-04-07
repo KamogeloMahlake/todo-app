@@ -1,0 +1,70 @@
+body 
+{
+  background-color: darkblue;
+  color: white;
+}
+
+.project 
+{
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: blue;
+}
+.project div 
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+button
+{
+  height: 1.5rem;
+  border-radius: 1rem;
+  border: 0px;
+  margin: 0.2rem;
+}
+
+.delete_project
+{
+  margin: 0px;
+}
+
+textarea, dialog input
+{
+  width: 100%;
+  margin: 0.2rem;
+}
+
+dialog
+{
+  width: 90%;
+}
+
+table
+{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+tr 
+{
+  border-bottom: 1px solid white;
+  background-color: lightblue;
+}
+td, th
+{
+  border-left: 1px solid white;
+  text-align: center;
+}
+
+dialog  div
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+
